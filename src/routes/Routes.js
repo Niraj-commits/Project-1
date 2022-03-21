@@ -18,7 +18,7 @@ const Routes = () => {
 
             <Route path="/signup" component={signup} />
 
-            <Route path="/Login" component={Login} />
+            <Route path="/" component={Login} />
 
             <Route path="/AccountDetail" component={AccountDetail} />
           </Switch>

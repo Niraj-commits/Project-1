@@ -3,23 +3,23 @@ import { Link } from "react-router-dom";
 
 const login = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ maxWidth: "400px" }}>
       <h1> Login </h1>
       <hr />
       <form class="row g-3">
-        <div class="">
+        <div class="col-12">
           <label for="email" class="form-label">
             Email
           </label>
           <input type="email" class="form-control" id="email" />
         </div>
-        <div class="">
+        <div class="col-12">
           <label for="inputPassword4" class="form-label">
             Password
           </label>
           <input type="password" class="form-control" id="password" />
         </div>
-        <div class="col-12">
+        <div class="col-6">
           <button type="submit" class="btn btn-primary">
             Sign in
           </button>

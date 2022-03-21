@@ -1,16 +1,15 @@
 import React from "react";
 import ModalIncome from "./ModalIncome";
 import ModalExpense from "./ModalExpense";
-import ModalClear from "./ModalClear";
 
-const modal = () => {
+const Modal = () => {
   return (
-    <div>
+    <div className="btn-group">
       <ModalIncome />
-      <ModalClear />
       <ModalExpense />
+      <button className="btn btn-danger">Clear</button>
     </div>
   );
 };
 
-export default modal;
+export default Modal;
