@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div>
+    <div class="container" style={{ padding: 10 }}>
       <form class="d-flex">
         <input
           class="form-control me-2"

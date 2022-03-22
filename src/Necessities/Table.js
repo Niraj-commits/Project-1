@@ -15,12 +15,21 @@ const table = () => {
           </thead>
           <tbody>
             <tr>
-              <td>2000</td>
+              <td>2016</td>
               <td>This time i lost money</td>
               <td> 5000</td>
               <td>
                 {" "}
                 <button>Edit</button> <button>delete</button> Stolen
+              </td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>This time i gained money</td>
+              <td> 5000</td>
+              <td>
+                {" "}
+                <button>Edit</button> <button>delete</button>Found
               </td>
             </tr>
           </tbody>
