@@ -30,26 +30,7 @@ const Navbar = () => {
                 AccountDetail
               </NavLink>
             </li>
-
-            <li class="nav-item">
-              <NavLink
-                className="nav-link"
-                to="/home"
-                activeClassName="active"
-              ></NavLink>
-            </li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
           <div className="btn-group d-flex mx-4">
             <Link to="/login" className="btn btn-outline-success">
               Login

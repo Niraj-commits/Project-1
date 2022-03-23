@@ -6,9 +6,15 @@ import Table from "../Necessities/Table";
 
 const AccountDetail = () => {
   return (
-    <div>
+    <div className="container">
       <h2>Money Transactions</h2>
-      <p id="money">balance</p>
+      <p className="text-dark">
+        Balance: <p className="text-success">400 rs/-</p>
+      </p>
+      {/* <p style="margin: 0; display: inline;">Balance: </p>
+      <p style="margin: 0; display: inline;" align="right">
+        400 rs/-
+      </p> */}
       <hr />
       <div class="container">
         <div class="row align-items-start">
