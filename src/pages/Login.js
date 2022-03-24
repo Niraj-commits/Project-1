@@ -11,13 +11,23 @@ const login = () => {
           <label for="email" class="form-label">
             Email
           </label>
-          <input type="email" class="form-control" id="email" />
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+          />
         </div>
         <div class="col-12">
           <label for="inputPassword4" class="form-label">
             Password
           </label>
-          <input type="password" class="form-control" id="password" />
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your Password"
+          />
         </div>
         <div class="col-6">
           <button type="submit" class="btn btn-primary">

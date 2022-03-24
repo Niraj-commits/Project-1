@@ -5,7 +5,7 @@ const ModalIncome = () => {
     <div>
       <button
         type="button"
-        class="btn btn-primary"
+        class="btn btn-dark"
         data-bs-toggle="modal"
         data-bs-target="#modalIncome"
       >
@@ -22,7 +22,7 @@ const ModalIncome = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="modalIncomeLabel">
-                Add income
+                Income Details
               </h5>
               <button
                 type="button"
@@ -41,16 +41,18 @@ const ModalIncome = () => {
                     type="text"
                     class="form-control"
                     id="recipient-name"
+                    placeholder="What was the reason"
                   ></input>
                 </div>
                 <div class="mb-3">
                   <label for="message-text" class="col-form-label">
-                    All Transactions
+                    Add Transaction
                   </label>
                   <input
                     type="number"
                     class="form-control"
                     id="recipient-name"
+                    placeholder="0"
                   ></input>
                 </div>
               </form>

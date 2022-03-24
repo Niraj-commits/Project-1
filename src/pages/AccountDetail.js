@@ -2,19 +2,16 @@ import * as React from "react";
 import Modal from "../Necessities/Modal";
 import Search from "../Necessities/Search";
 import Table from "../Necessities/Table";
-// import "../App.css";
 
 const AccountDetail = () => {
   return (
     <div className="container">
       <h2>Money Transactions</h2>
-      <p className="text-dark">
-        Balance: <p className="text-success">400 rs/-</p>
-      </p>
-      {/* <p style="margin: 0; display: inline;">Balance: </p>
-      <p style="margin: 0; display: inline;" align="right">
-        400 rs/-
-      </p> */}
+      <div style={{ fontSize: 20 }}>
+        <p className="text-dark">
+          Balance: <p className="text-success">5000 rs/-</p>
+        </p>
+      </div>
       <hr />
       <div class="container">
         <div class="row align-items-start">

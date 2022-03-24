@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import signup from "../pages/Signup";
 import Login from "../pages/Login";
 import AccountDetail from "../pages/AccountDetail";
+import AccountList from "../pages/AccountList";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const Routes = () => {
@@ -21,6 +22,8 @@ const Routes = () => {
             <Route path="/login" component={Login} />
 
             <Route path="/AccountDetail" component={AccountDetail} />
+
+            <Route path="/AccountList" component={AccountList} />
           </Switch>
         </div>
       </Router>

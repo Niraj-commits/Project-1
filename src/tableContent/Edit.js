@@ -6,7 +6,7 @@ const Edit = () => {
       <div>
         <button
           type="button"
-          class="btn btn-primary"
+          class="btn btn-dark"
           data-bs-toggle="modal"
           data-bs-target="#edit"
         >

@@ -24,10 +24,10 @@ const Navbar = () => {
             <li class="nav-item">
               <NavLink
                 className="nav-link"
-                to="/AccountDetail"
+                to="/AccountList"
                 activeClassName="active"
               >
-                AccountDetail
+                AccountList
               </NavLink>
             </li>
           </ul>

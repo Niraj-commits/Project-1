@@ -5,7 +5,7 @@ const ModalExpense = () => {
     <div>
       <button
         type="button"
-        class="btn btn-primary"
+        class="btn btn-dark"
         data-bs-toggle="modal"
         data-bs-target="#expenseModal"
       >
@@ -22,7 +22,7 @@ const ModalExpense = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="expenseModalLabel">
-                ALl Transactions
+                Expenses Details
               </h5>
               <button
                 type="button"
@@ -41,6 +41,7 @@ const ModalExpense = () => {
                     type="text"
                     class="form-control"
                     id="recipient-name"
+                    placeholder="What was the reason"
                   ></input>
                 </div>
                 <div class="mb-3">
@@ -51,6 +52,7 @@ const ModalExpense = () => {
                     type="number"
                     class="form-control"
                     id="recipient-name"
+                    placeholder="0"
                   ></input>
                 </div>
               </form>
@@ -58,7 +60,7 @@ const ModalExpense = () => {
             <div class="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                class="btn btn-secondary "
                 data-bs-dismiss="modal"
               >
                 Cancel
