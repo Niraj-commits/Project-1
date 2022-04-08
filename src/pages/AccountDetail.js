@@ -9,7 +9,7 @@ const AccountDetail = () => {
       <h2>Money Transactions</h2>
       <div style={{ fontSize: 20 }}>
         <p className="text-dark">
-          Balance: <p className="text-success">5000 rs/-</p>
+          Balance: <p className="text-success">1000 rs/-</p>
         </p>
       </div>
       <hr />

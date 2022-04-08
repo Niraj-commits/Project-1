@@ -5,47 +5,57 @@ const NewListModal = () => {
     <div>
       <button
         type="button"
-        className="btn btn-primary"
-        data-toggle="modal"
-        data-target="#AddNewAccountBookModal"
+        class="btn btn-dark"
+        data-bs-toggle="modal"
+        data-bs-target="#newAccountBookModal"
       >
-        Add New Account Book
+        + Create new account book
       </button>
-
       <div
-        className="modal fade"
-        id="AddNewAccountBookModal"
+        class="modal fade"
+        id="newAccountBookModal"
         tabindex="-1"
-        role="dialog"
-        aria-labelledby="AddNewAccountBookModalTitle"
+        aria-labelledby="newAccountBookModalLabel"
         aria-hidden="true"
       >
-        <div className="modal-dialog modal-dialog-centered" role="document">
-          <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLongTitle">
-                Add New
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="newAccountBookModalLabel">
+                Create New Account Book
               </h5>
               <button
                 type="button"
-                className="close"
-                data-dismiss="modal"
+                class="btn-close"
+                data-bs-dismiss="modal"
                 aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
+              ></button>
             </div>
-            <div className="modal-body">...</div>
-            <div className="modal-footer">
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">
+                    Name for your account book:
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="recipient-name"
+                    placeholder="Expense for month: Shrawan 2078"
+                  ></input>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
               <button
                 type="button"
-                className="btn btn-secondary"
-                data-dismiss="modal"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
               >
-                Close
+                Cancel
               </button>
-              <button type="button" className="btn btn-primary">
-                Save changes
+              <button type="button" class="btn btn-primary">
+                Add Account Book
               </button>
             </div>
           </div>
