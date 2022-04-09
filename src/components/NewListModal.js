@@ -41,7 +41,7 @@ const NewListModal = () => {
                     type="text"
                     class="form-control"
                     id="recipient-name"
-                    placeholder="Expense for month: Shrawan 2078"
+                    placeholder="Expense for month: Chaitra 2078"
                   ></input>
                 </div>
               </form>

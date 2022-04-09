@@ -16,7 +16,7 @@ const table = () => {
           </thead>
           <tbody>
             <tr class="table-success">
-              <td>03-04-2017</td>
+              <td>04/03/2017</td>
               <td>Salary recieved from the company</td>
               <td> 5000</td>
               <td>
@@ -25,7 +25,7 @@ const table = () => {
               </td>
             </tr>
             <tr class="table-danger">
-              <td>06-04-2017</td>
+              <td>04/06/2017</td>
               <td>Spent money on shoes</td>
               <td> 4000</td>
               <td>

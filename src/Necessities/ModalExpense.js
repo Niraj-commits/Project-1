@@ -41,7 +41,7 @@ const ModalExpense = () => {
                     type="text"
                     class="form-control"
                     id="recipient-name"
-                    placeholder="What was the reason"
+                    placeholder="Details for reason on expenses made "
                   ></input>
                 </div>
                 <div class="mb-3">

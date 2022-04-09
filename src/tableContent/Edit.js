@@ -10,7 +10,7 @@ const Edit = () => {
           data-bs-toggle="modal"
           data-bs-target="#edit"
         >
-          Option
+          Edit
         </button>
         <div
           class="modal fade"
@@ -42,7 +42,7 @@ const Edit = () => {
                       type="text"
                       class="form-control"
                       id="recipient-name"
-                      placeholder="what was the reason"
+                      placeholder="What do you want to update on table?"
                     ></input>
                   </div>
                   <div class="mb-3">

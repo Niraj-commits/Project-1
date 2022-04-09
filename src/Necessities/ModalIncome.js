@@ -41,7 +41,7 @@ const ModalIncome = () => {
                     type="text"
                     class="form-control"
                     id="recipient-name"
-                    placeholder="What was the reason"
+                    placeholder="Details for the money received medium"
                   ></input>
                 </div>
                 <div class="mb-3">
