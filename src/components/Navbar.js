@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <NavLink class="navbar-brand" to="/">
+        {/* <NavLink class="navbar-brand" to="/AccountList">
           Kharcha
-        </NavLink>
+        </NavLink> */}
         <button
           class="navbar-toggler"
           type="button"
@@ -27,7 +27,7 @@ const Navbar = () => {
                 to="/AccountList"
                 activeClassName="active"
               >
-                AccountList
+                Kharcha
               </NavLink>
             </li>
           </ul>
